@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVRA Experience - Identico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero-section">
+        <div class="hero-background"></div>
+            <!--<div style="background-image: url('foto/saranda_1.png');"></div>-->
+            <!--<div class="image-right" style="background-color:#ffffff;"></div>-->
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <header class="main-header">
+                <div class="logo"><img src="Logo.svg" style="height: 80px;" alt="logo"></div>
+            </header>
+            <div class="hero-main">
+                <div class="hero-text">
+                    <h1>Pronto per la migliore vacanza della tua vita?</h1>
+                    <ul>
+                        <li>Boat Party al tramonto</li>
+                        <li>Avventure tra quad, jet ski e spiagge private</li>
+                        <li>Party esclusivi nei migliori club di Saranda</li>
+                        <li>Nuove amicizie che durano tutta la vita</li>
+                    </ul>
+                    <div class="tagline">
+                        <span>Viaggia.</span>
+                        <span>Vivi.</span>
+                        <span>Ricorda.</span>
+                    </div>
+                </div>
+                <div class="hero-form-wrapper">
+                    <div class="form-container">
+                        <p class="availability">A Soli 50 posti disponibili - entra ora nella lista prioritaria e ricevi le offerte Early Bird in anteprima</p>
+                        <form action="/submit-form" method="POST">
+                            <div class="form-row">
+                                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                                <input type="text" id="cognome" name="cognome" placeholder="Cognome" required>
+                            </div>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Numero di telefono" required>
+                            <button type="submit">Registra il tuo interesse</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="package-section">
+        <div class="container package-container">
+            <h2>Un solo pacchetto.<br>TUTTO INCLUSO!</h2>
+            <p class="subtitle">Vivi la settimana più intensa della tua vita non pensare a nulla, abbiamo già pensato a tutto.</p>
+            <div class="features">
+                <ul>
+                    <li>✔ Boat Party con DJ e open bar</li>
+                    <li>✔ Escursioni (Blue Eye, Butrinto, spiagge private)</li>
+                    <li>✔ Attività adrenaliniche: quad, jet ski, cliff jumping</li>
+                    <li>✔ Cene a tema e intrattenimento ogni sera</li>
+                </ul>
+                <ul>
+                    <li>✔ Ingressi nelle discoteche più esclusive di Saranda</li>
+                    <li>✔ Staff dedicato H24 e giochi di socializzazione</li>
+                    <li>✔ Gadget esclusivi per i partecipanti</li>
+                    <li>✔ Foto & video professionali del viaggio</li>
+                </ul>
+            </div>
+            <div class="price-box">
+                <p>Tutto questo a partire da meno di 70€ al giorno</p>
+            </div>
+            <a href="#" class="cta-button">Registrati ora e blocca il tuo posto</a>
+        </div>
+    </section>
+
+    <section class="program-section">
+      <div class="container">
+          <h2>Il Programma</h2>
+          <div class="table-responsive-wrapper">
+              <table class="program-table">
+                  <thead>
+                      <tr>
+                          <th>Lunedì</th>
+                          <th>Martedì</th>
+                          <th>Mercoledì</th>
+                          <th>Giovedì</th>
+                          <th>Venerdì</th>
+                          <th>Sabato</th>
+                          <th>Domenica</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td data-label="Lunedì">
+                              <p>Colazione di benvenuto vista mare</p>
+                              <p>Spiaggia pranzo in beach club esclusivo</p>
+                              <p>Welcome Games</p>
+                              <p>Cena cantata (karaoke)</p>
+                              <p>White Party Discoteca BLANCO</p>
+                          </td>
+                          <td data-label="Martedì">
+                              <p>Colazione</p>
+                              <p>Boat Party (dj a bordo, open bar)</p>
+                              <p>Relax in spiaggia privata</p>
+                              <p>Cena spettacolo (quiz show)</p>
+                              <p>Lost Seaside + Afterparty segreto</p>
+                          </td>
+                          <td data-label="Mercoledì">
+                              <p>Colazione</p>
+                              <p>Jet Ski Adventure & Banana Boat ride</p>
+                              <p>Relax in beach club con Sunset Aperitif</p>
+                              <p>Cena + intrattenimento (contest)</p>
+                              <p>Serata discoteca ORANGE</p>
+                          </td>
+                          <td data-label="Giovedì">
+                              <p>Colazione</p>
+                              <p>Rientro in spiaggia aperitivo al tramonto</p>
+                              <p>Cena live band & giochi</p>
+                              <p>PODA Beach Club Night (dj Internazionali)</p>
+                          </td>
+                          <td data-label="Venerdì">
+                              <p>Colazione</p>
+                              <p>Spiaggia Pranzo</p>
+                              <p>Relax post-adrenalina</p>
+                              <p>Cena + intrattenimento (karaoke battle)</p>
+                              <p>Rock&Blues Night - tema anni 2000</p>
+                          </td>
+                          <td data-label="Sabato">
+                              <p>Colazione</p>
+                              <p>Private Boat Experience (isole, cliff jumping)</p>
+                              <p>Relax e shooting</p>
+                              <p>Cena di chiusura "Best Guest Awards"</p>
+                          </td>
+                          <td data-label="Domenica">
+                              <p>Colazione di gruppo</p>
+                              <p>Check-out abbracci finali</p>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+  </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2>Domande frequenti</h2>
+            <div class="faq-grid">
+                <div class="faq-item"><p>Lorem ipsum amet odio amet lorem.</p></div>
+                <div class="faq-item"><p>Lorem ipsum dolor sit amet consectetur. Quis morbi tristique sit malesuada tristique. Ac eu pharetra nunc ullamcorper id aliquet.</p></div>
+                <div class="faq-item"><p>Nulle adipiscing urna enim aliquam ut pharetra. Ut dui tristique consequat non.</p></div>
+                <div class="faq-item"><p>Pharetra vel sed at sit ac cursus tristique ullamcorper proin. Fringilla consequat nec faucibus tristique eget eu at eget.</p></div>
+                <div class="faq-item"><p>Eget mattis sed quisque odio. Nunc dictumst eu ullamcorper lacus. Interdum pulvinar a sodales luctus parturient tincidunt nisi lectus.</p></div>
+                <div class="faq-item"><p>Tellus non amet non vel quis quis at. Ultrices etiam ut ac aenean enim.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col"><div class="logo">AVRA<br>EXPERIENCE</div></div>
+                <div class="footer-col">
+                    <h3>Contattaci</h3>
+                    <p>Indirizzo: Saranda Albania<br>Email: info@avraexperience.al<br>Telefono: +355 XX XXX XXXX</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Link Rapidi</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Pacchetto</a></li>
+                        <li><a href="#">Programma</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Termini e Condizioni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col"><h3>Seguici</h3></div>
+            </div>
+            <div class="copyright"><p>&copy; 2025 AVRA Experience. Tutti i diritti riservati.</p></div>
+        </div>
+    </footer>
+
+</body>
+</html>
